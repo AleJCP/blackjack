@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.background{
+    background: radial-gradient(#27a077, #27a077, hsl(160, 69%, 23%));
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.GifCartas{
+    margin: auto;
+    max-width: 80px;
+    display: flex;
+    justify-content: center;
+}
+.Title{
+    text-align: center;
+    padding: 15px;
+    font-size: 60px;
+    color: cornsilk;
+}
+
+.symbol-e{
+    color: black;
+}
+
+.container-btn{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.Btn{
+    background-color: hsl(160, 69%, 23%);
+    border: none;
+    color: azure;
+    cursor: pointer;
+    padding: 20px 60px;
+    margin: 7px;
+    border-radius: 30px;
+}
+.Btn:hover{
+    background-color: azure;
+    border: none;
+    color: hsl(160, 69%, 23%);
+    cursor: pointer;
+    padding: 20px 60px;
+    margin: 7px;
+}
+
+.table-player{
+    margin: 40px 10%;
+    
+}
+
+.head-tp{
+    border-bottom: 5px solid hsl(160, 69%, 23%);
+    color: azure;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.title-tp{      
+    color: azure; 
+    margin-right: 10px;
+}
+
+.box{
+    margin: 0px 5%;
+    padding-top: 10px;
+    padding-left: 20px;
+    min-height: 220px;
+}
+
+.card{
+    
+    max-width: 142px;
+    margin-left: -80px;
+    filter: drop-shadow(5px 5px 10px black);
+    
+}
